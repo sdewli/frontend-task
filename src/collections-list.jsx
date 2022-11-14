@@ -7,7 +7,7 @@ import card4 from './images/cards/card4.png';
 const CollectionCard = ({ mainImage, profile, image2, image3, title, title2 }) => {
     return (
         <div className="collection-card">
-            <img src={mainImage} className="cont-1"/>
+            <img src={mainImage} className="cont-1" alt={mainImage}/>
             <div className="cont-2">
                 <img className="img1" src={image2}/>
                 <img className="img2" src={profile}/>
