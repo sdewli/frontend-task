@@ -8,7 +8,7 @@ export default function Header () {
     return (
         <header className="main-header">
             <div className="icon-container">
-                <img src={logo} alt="logo"/>
+                <img src={logo} alt="logo" alt={logo}/>
                 <span className="logo-text"> P2E Pro </span>
             </div>
             <div className="search-container">
