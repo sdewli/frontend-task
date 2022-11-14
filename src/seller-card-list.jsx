@@ -7,7 +7,7 @@ import card4 from './images/cards/card4.png';
 const SellerCard = ({ profile, name, sold}) => {
     return (
         <div className="seller-card">
-            <img src={profile}/>
+            <img src={profile} alt={profile}/>
             <div className="profile-name">{name}</div>
             <div className="sold">{sold}</div>
         </div>
