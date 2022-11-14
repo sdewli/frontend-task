@@ -1,0 +1,34 @@
+.seller-card-list {
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.seller-card {
+    height: 220px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 26px 0;
+
+}
+
+.seller-card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.seller-card .profile-name {
+    font-weight: 800;
+    margin-top: 25px;
+}
+
+.seller-card .sold {
+    margin-top: 10px;
+    color: #887f7f;
+}

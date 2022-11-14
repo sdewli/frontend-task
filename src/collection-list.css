@@ -1,0 +1,55 @@
+.collections-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.collection-card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.collection-card .cont-1 {
+    width: 100%;
+    border-radius: 5px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.cont-2 {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.cont-2 .img1, .cont-2 .img3 {
+
+    width: 180px;
+    height: 80px;
+    border-radius: 5px;
+
+}
+
+.cont-2 .img2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.cont-3 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.cont-4 {
+    text-align: center;
+    margin-top: 10px;
+    color: #887f7f;
+}

@@ -1,0 +1,119 @@
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 60px 20px 60px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 10px;
+}
+li {
+  margin: 20px 0px;
+  color: #888888;
+}
+.language-container {
+  max-width: 300px;
+}
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container img {
+  width: 45px;
+  margin-right: 5px;
+}
+
+.icon-container .logo-text {
+  margin-right: 50px;
+  font-weight: 800;
+  font-size: 18px;
+  color: #333;
+}
+
+.language-btn {
+  display: flex;
+  align-items: center;
+  font-size: medium;
+  background-color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+
+  border: none;
+  padding: 10px;
+  box-shadow: 0px 1px 5px #c4c3c3;
+}
+.dropdown-icon{
+    transition: all 0.5s;
+}
+.language-btn p {
+  margin: 0;
+  margin-right: 35px;
+}
+.flag {
+  height: 25px;
+  width: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.newsletter-input {
+  font-size: medium;
+  background-color: white;
+  border: none;
+  padding: 15px 15px;
+  padding-right: 130px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px #c4c3c3;
+}
+.subscribe-btn {
+  font-size: medium;
+  background: linear-gradient(to bottom, #0099ff 14%, #0066ff 100%);
+  position: absolute;
+  right: 70px;
+  margin-top: 6px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition:opacity 0.2s
+}
+.subscribe-btn:hover {
+    opacity: 0.7;
+}
+.down{
+    border-top: 1px solid#d1d1d1;;
+    padding-top: 20px;
+    text-align: center;
+    color: #888888;
+}
+.down a{
+    color: #0066ff;
+}
+.social-links{
+    margin-top: 20px;
+}
+.social-btn{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 3px #c4c3c3;
+    margin-right: 15px;
+}
+.social-btn img{
+    height: 20px;
+}

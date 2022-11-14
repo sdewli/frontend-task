@@ -1,0 +1,39 @@
+.header-seek {
+    display: flex;
+    align-items: center;
+    grid-gap: 15px;
+    margin-bottom: 30px;
+}
+
+.seek {
+    display: flex;
+    flex: 1;
+    margin-top: 3px;
+}
+
+.header-seek .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.header-seek .line {
+    flex: 1;
+    border: 2px solid var(--grey-color);
+    height: 0px;
+    border-bottom: 0;
+    position: relative;
+    top: 1px;
+}
+
+.view-all {
+    height: 50px;
+    width: 130px;
+}
+
+.caret-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
